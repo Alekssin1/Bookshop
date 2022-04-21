@@ -363,26 +363,6 @@ line-height: 150%;
      padding: 54px 120px 0px;
  }
  
- /* .block2row{
-     font-family: 'Montserrat';
-     font-style: normal;
-     font-weight: 500;
-     font-size: 18px;
-     line-height: 208%;
-     align-items: center;
-     color: #FFFFFF;
- }
- .block2row2{
-     font-family: 'Montserrat';
-     font-style: normal;
-     font-weight: 500;
-     font-size: 18px;
-     line-height: 208%;
-     align-items: center;
-     color: #FFFFFF;
-     margin-left: 420px;
-     margin-top: -336.5px;
- } */
  .block2row{
      font-family: 'Montserrat';
      font-style: normal;
@@ -605,6 +585,7 @@ line-height: 150%;
     height: 65px;
     background-color: #424245;
     position:fixed;
+    z-index: 1000;
 }
 
 
@@ -646,7 +627,6 @@ line-height: 150%;
     border-radius: 0px 5px 5px 0px; 
     width: 55px;
     height: 36px;
-    background: #FFFFFF;
     font-family: 'Montserrat';
     font-style: italic;
     font-weight: 400;
@@ -784,9 +764,9 @@ line-height: 150%;
     display: flex;
     border: 1px solid #E0D6D6;
     flex-direction: row;
+    justify-content: space-between;
 }
 .Tab {
-    width: 25%;
     border: 0;
     box-sizing: border-box;
     line-height: 20px;
@@ -803,11 +783,36 @@ line-height: 150%;
     font-weight: 600;
     font-size: 30px;
     line-height: 125%;
+    margin-right: 21px;
+}
+
+.Price{
+    width: 121.6px;
+}
+
+.Cart{
+    width: 150px;
+}
+
+.Wishlist{
+    width: 40px;
+}
+
+.Wishlist button{
+    background:transparent; 
+    border:none; 
+    color:transparent;
+    cursor: pointer;
+}
+
+.Cart button{
+    cursor: pointer;
 }
 
 .Availability{
-    font-size: 18px;
+    font-size: 17px;
     line-height: 208%;
+    width: 131px;
 }
 .cart_button{
     background-color: #424245;
@@ -815,11 +820,12 @@ line-height: 150%;
     width: 149px;
     height: 52px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
 }
 .cartmenu{
-    width: 149px;
-    height: 52px;
+    width: 115.4px;
+    height: 40px;
     
 }
 .wishlistmenu{
@@ -830,7 +836,20 @@ line-height: 150%;
     width: 37.76px;
     height: 35,75px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
+}
+
+.Cart button:hover{
+    opacity: 0.5;
+}
+
+.Wishlist button:hover{
+    opacity: 0.5;
+}
+
+.Wishlist button:focus .wishlistmenu, .Wishlist button:active .wishlistmenu{
+    background-color: #424245;
 }
 
 .description{
@@ -842,4 +861,173 @@ line-height: 150%;
     width: 517px;
     margin-top: 48px;
     margin-bottom: 20px;
+}
+
+
+.Catalog{
+    background-color: #F5F5F7;
+    width:100%;
+    height:158vh;
+}
+
+.catalog_page{
+    height: 105vh;
+    width: 209px;
+    background-color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 5px;
+    padding-left: 23px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    z-index: 1;
+}
+.catalog_page h2{
+    font-size: 30px;
+    line-height:32px;
+    height:20px;
+    padding-top: 0px;
+}
+
+.GroupName{
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    height: 183px;
+}
+
+.Options {
+    width: 184px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-bottom: 6px;
+}
+
+
+
+
+.Option{
+    width: 174px;
+    margin-top: 5px;
+    
+}
+
+
+  input[type="checkbox"] {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+
+
+  input[type="checkbox"]+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+  }
+
+
+  input[type="checkbox"]+label::before {
+    content: '';
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #000000;
+    border-radius: 0.25em;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+  }
+
+
+  input[type="checkbox"]:not(:disabled):not(:checked)+label:hover::before {
+    border-color: #5d5d5d;
+  }
+
+  input[type="checkbox"]:not(:disabled):active+label::before {
+    background-color: #5d5d5d;
+    border-color: #000000;
+  }
+
+  input[type="checkbox"]:focus:not(:checked)+label::before {
+    border-color: #5d5d5d;
+  }
+
+  input[type="checkbox"]:checked+label::before {
+    border-color: #000000;
+    background-color: #5d5d5d;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+  }
+
+  input[type="checkbox"]:disabled+label::before {
+    background-color: #f5f5f7;
+  }
+
+.Option label{
+    text-align: start;
+    font-size: 12px;
+    line-height: 14px;
+    height: 23px;
+}
+
+.GroupName{
+    display: flex;
+    flex-direction: column;
+}
+
+.publish_house_menu{
+    display: flex;
+    flex-direction: row;
+    width: 186px;
+    justify-content:space-between;
+    padding-right:15px;
+    line-height: 53.5px;
+    background-color: #F5F5F7;
+    
+}
+
+.number_of_publish_house{
+    color: #5d5d5d;
+}
+
+.PriceControl{
+    padding-top: 11.5px;
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-between; */
+    height: 46px;
+    padding-bottom: 11.5px;
+}
+
+.Enter input{
+    width: 63px;
+    height: 22px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.commit-button{
+    padding-left: 5px;
+    width: 33.65px;
+    display: flex;
+    
+}
+
+.button{
+    height: 22px;
+}
+
+.button-link:hover, .button-link:active{
+    opacity: 0.75;
 }
