@@ -597,3 +597,249 @@ line-height: 150%;
 .navi_links:hover, .navi_links:focus, .navi_links:active{
     opacity: 75%;
 }
+
+.header2{
+    display: flex;
+    align-content: center;
+    width: 100%;
+    height: 65px;
+    background-color: #424245;
+    position:fixed;
+}
+
+
+.top_menu{
+    display: flex;
+    padding-left: 90px;
+    align-items: center;
+}
+
+.menu_logo-pic{
+    height: 36px;
+    width: 212px;
+}
+
+.SearchMenu{
+    padding-left: 289.3px;
+}
+
+.searchBarmenu {
+    display: flex;
+    flex-direction: row;
+}
+.searchBarmenu #site-search{
+    background: #F5F5F7;
+    opacity: 0.8;
+    border-radius: 5px 0px 0px 5px;
+    padding: 10px;
+    font-family: Montserrat,serif;
+    font-weight: 600;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 377px;
+    height: 36px;
+    border:0;
+}
+.searchBarmenu button {
+    background: #C4C4C4;
+    border-radius: 0px 5px 5px 0px; 
+    width: 55px;
+    height: 36px;
+    background: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 150.1%;
+    /* or 15px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.14em;
+
+    color: #171717;
+    cursor: pointer;
+    opacity: 0.8;
+    border:0;
+    
+}
+
+
+.menusearch_loupe{
+    height: 27.85px;
+    width: 27.85px;
+}
+
+.menu_links{
+    display: flex;
+    padding-left: 140.7px;
+    justify-content: space-between;
+}
+
+.menu_link{
+    padding-left: 55.25px;
+}
+
+.menu_link:first-child{
+    padding-left: 0;
+}
+
+.menu_link:hover, .menu_link:focus, .menu_link:active{
+    opacity: 75%;
+    transition: opacity .4s linear;
+}
+
+.menu_images{
+    height: 36px;
+    width: 36px;
+}
+
+.Infopage1{
+    background-color: #F5F5F7;
+    width:100%;
+    height:120vh;
+}
+
+.desktop3{
+    width: 1306px;
+    margin: 0 auto;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 63px;
+
+}
+
+.desktop3 h1{
+    margin-top:27px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 150.1%;
+    letter-spacing: 0.14em;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Categories {
+    width: 62%;
+    height: 47px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 278%;
+    color: #000000;
+}
+
+.Category {
+    width: 25%;
+    border: 1px solid #555555;
+    box-sizing: border-box;
+    line-height: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    font-size: 1em;
+    text-decoration: none;
+    color: #000000;
+}
+
+.Category:hover{
+    opacity: 75%;
+}
+
+.Main.Category{
+    background-color: #424245;
+    color: #f5f5f7;
+}
+
+/* .Category:active, .Category:focus{
+    background-color: #424245;
+    color: #f5f5f7;
+} */
+.bookpreview{
+    margin-left: 163px;
+    margin-top: 54px;
+}
+
+.book{
+    width:  378px;
+    height: 560px;
+}
+
+.buy_menu{
+    margin-top: 54px;
+    width: 517px;
+    height: 72px;
+    display: flex;
+    border: 1px solid #E0D6D6;
+    flex-direction: row;
+}
+.Tab {
+    width: 25%;
+    border: 0;
+    box-sizing: border-box;
+    line-height: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    font-size: 1em;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 125%;
+}
+
+.Availability{
+    font-size: 18px;
+    line-height: 208%;
+}
+.cart_button{
+    background-color: #424245;
+    border-radius: 4px;
+    width: 149px;
+    height: 52px;
+    display: flex;
+    justify-content: flex-start;
+}
+.cartmenu{
+    width: 149px;
+    height: 52px;
+    
+}
+.wishlistmenu{
+    width: 37.76px;
+    height: 35,75px;
+}
+.wishlistbutton{
+    width: 37.76px;
+    height: 35,75px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.description{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 178%;
+    width: 517px;
+    margin-top: 48px;
+    margin-bottom: 20px;
+}
