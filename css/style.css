@@ -292,8 +292,8 @@ color: #F5F5F7;
  .desktop2 {
     width: 870px;
     margin: 0 auto;  
-
     display: flex;
+    flex-wrap: wrap;
     flex-shrink: 1;
     justify-content: space-between;
     padding-top: 63px;
@@ -1320,5 +1320,28 @@ line-height: 150%;
         width: 100px;
         height: 92px;
     }
+
     
+}
+
+@media (max-width: 900px){
+    .desktop{width: 522px;}
+    .Block1 h1{
+        font-size: 29px;
+        line-height: 47px;
+    }
+    .row {
+        margin-top: 30px;
+
+        font-size: 10.8px;
+        line-height: 208%;
+        width: 522px;
+    }
+    
+
+   
+   .styleblock2{
+   line-height: 150%;
+        padding-left: 20px;
+   }
 }
