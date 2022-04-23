@@ -86,7 +86,6 @@
  .mainmenu.menu {
      display: flex;
      
-     position: absolute;
 
      height: 72px;
      /* left: 280px;
@@ -96,12 +95,13 @@
      
   }
 
-  .header_cart-pic {
-       margin-left: 170px;
-  }
 
   .cart {
      transition: opacity .2s linear;
+  }
+  
+  a.cart{
+      margin-left: 170px;
   }
 
   .header_logo{
@@ -867,7 +867,7 @@ line-height: 150%;
 .Catalog{
     background-color: #F5F5F7;
     width:100%;
-    height:158vh;
+    height:190vh;
 }
 
 .catalog_page{
@@ -878,11 +878,12 @@ line-height: 150%;
     font-style: normal;
     font-weight: 600;
     padding-top: 5px;
-    padding-left: 23px;
+    
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     z-index: 1;
 }
 .catalog_page h2{
+    padding-left: 23px;
     font-size: 30px;
     line-height:32px;
     height:20px;
@@ -897,6 +898,7 @@ line-height: 150%;
 }
 
 .Options {
+    margin-left: 23px;
     width: 184px;
     overflow-x: hidden;
     overflow-y: auto;
@@ -981,11 +983,12 @@ line-height: 150%;
 .publish_house_menu{
     display: flex;
     flex-direction: row;
-    width: 186px;
+    width: 209px;
     justify-content:space-between;
     padding-right:15px;
     line-height: 53.5px;
     background-color: #F5F5F7;
+    padding-left: 23px;
     
 }
 
@@ -994,6 +997,7 @@ line-height: 150%;
 }
 
 .PriceControl{
+    padding-left: 10px;
     padding-top: 11.5px;
     display: flex;
     flex-direction: row;
@@ -1001,6 +1005,8 @@ line-height: 150%;
     height: 46px;
     padding-bottom: 11.5px;
 }
+
+
 
 .Enter input{
     width: 63px;
@@ -1030,4 +1036,172 @@ line-height: 150%;
 
 .button-link:hover, .button-link:active{
     opacity: 0.75;
+}
+
+.Author{
+    height: 220px;
+}
+
+.Catalog.desktop3{
+    display: flex;
+    flex-direction: row;
+}
+.desktop4{
+    width: 1306px;
+    margin: 0 auto;  
+    display: flex;
+    flex-direction: row;
+    padding-top: 63px;
+}
+.desktop4 h1{
+    margin-left:97px;
+    margin-top:23px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 150.1%;
+    letter-spacing: 0.14em;
+    margin-bottom: 40.5px;
+}
+.Book a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.Page_section .Book {
+    padding-top: 7px;
+    width: 217px;
+    height: 359px;
+}
+.Book {
+    height: 359px;
+    background: #F5F5F7;
+    border: 0.5px solid rgba(145, 145, 148, 0.4);
+    position: relative;
+}
+.Book img {
+    margin-left: 27px;
+    width: 163px;
+    height:236px;
+}
+.Book span {
+    display: block;
+    width: 100%;
+}
+.Book .name {
+
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 13px;
+    margin-left: 21.4px;
+    margin-top: 17px;
+    color: #000000;
+}
+
+.Book .author {
+    margin-left: 21.4px;
+    margin-top: 17.6px;
+    font-size: 0.625em;
+    line-height: 1em;
+}
+
+.Book .price {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-left: 21.4px;
+    margin-top: 10px;
+}
+
+.rw {
+    display: flex;
+    flex-direction: row;
+}
+
+.LastSeen .rw .Book {
+    width: 10%;
+}
+
+.cartcatalog{
+    display: flex;
+    flex-direction: row;
+}
+
+.cartcatalog a{
+    left: 63.5%;
+    top: 85.71%;
+    bottom: 7.19%;
+}
+
+.cartcatalog img{
+    width: 26.8px;
+    height: 25.4px;
+}
+
+.cartcatalog a:hover{
+    opacity: 0.75;
+}
+
+.Pages {
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.Pages a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 50px;
+    color: #4C5661;
+    margin-right: 25px;
+}
+
+#Active {
+    width: 50px;
+    height: 50px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background: #4C5661;
+    border-radius: 60px;
+}
+
+.Price.GroupName{
+    height:120px;
+}
+
+.add_to_cart{
+    width: 26.8px;
+    height: 25.4px;
+}
+
+.Pages a:hover{
+    opacity: 75%;
+}
+
+@media (max-width:1246px) {
+    .SearchOnSite{
+        margin-left: 300px;
+    }
+    .HeaderText1{
+        left: 300px;
+    }
+    .HeaderText2{
+        left: 700px;
+    }
+    a.chat{ 
+        margin-left: 217px;
+    }
+    a.cart{
+        margin-left: 121px;
+    }
+    
 }
