@@ -1191,32 +1191,40 @@ line-height: 150%;
 @media (max-width:1246px) {
     .SearchOnSite{
         margin-right: 255px;
+        transition: 3s;
     }
     .HeaderText1{
         left: 300px;
+        transition: 3s;
     }
     .HeaderText2{
         left: 700px;
+        transition: 3s;
     }
     a.chat{ 
         margin-right: 0px;
+        transition: 3s;
     }
     a.cart{
         margin-left: 121px;
+        transition: 3s;
     }
 
     .header_list{
         margin-left: 142px;
         padding-left: 0px;
+        transition: 3s;
     }
 
      .header_item:last-child{
           margin-right: 0px;
+          transition: 3s;
      }
 
      .header_logo-pic{
          width: 120px;
          height: 110px;
+         transition: 3s;
      }
     
 }
@@ -1224,115 +1232,142 @@ line-height: 150%;
 @media (max-width: 1090px) {
     .SearchOnSite{
         margin-right:100px;
+        transition: 3s;
     }
     .HeaderText1{
         left: 200px;
+        transition: 3s;
     }
     .HeaderText2{
         left: 620px;
+        transition: 3s;
     }
     a.chat{ 
         margin-left: 100px;
+        transition: 3s;
     }
     a.cart{
         margin-left: 0px;
+        transition: 3s;
     }
     .header_list{
         margin-left:40px;
         width: 700px;
+        transition: 3s;
     }
     
     .header_item{
         margin-right: 40px;
+        transition: 3s;
     }
 
      .header_item:last-child{
           margin-right: 0px;
+          transition: 3s;
      }
 }
 
 @media (max-width: 1008px) {
     .SearchOnSite{
         width: 550px;
+        transition: 3s;
     }
     .HeaderText1{
         left: 100px;
+        transition: 3s;
     }
     .HeaderText2{
         left: 560px;
+        transition: 3s;
     }
     .header_list{
         margin-left:10px;
+        transition: 3s;
     }
     
     .header_item{
         margin-left: 20px;
+        transition: 3s;
     }
     
     .header_link{
         font-size: 15px;
+        transition: 3s;
     }
 
      .header_item:last-child{
           margin-right: 0px;
+          transition: 3s;
      }
 }
 
 @media (max-width: 950.4px) {
     .SearchOnSite{
         margin-right: 218px;
+        transition: 3s;
     }
     .HeaderText1{
        display: none;
+       transition: 3s;
     }
     .HeaderText2{
         top:290px;
         left: 103px;
         width: 600px;
+        transition: 3s;
     }
     a.cart{
         margin-left: 0px;
+        transition: 3s;
     }
     .header_cart-pic{
         width: 35px;
         height: 35px;
+        transition: 3s;
     }
     .header_list{
         margin-left:10px;
+        transition: 3s;
     }
     
     .header_item{
         margin-right: 40px;
+        transition: 3s;
     }
     
     .header_link{
         font-size: 15px;
+        transition: 3s;
     }
 
      .header_item:last-child{
           margin-right: 0px;
+          transition: 3s;
      }
      a.chat{ 
         margin-left: 0px;
+        transition: 3s;
     }
     
     .header_logo-pic{
         width: 100px;
         height: 92px;
+        transition: 3s;
     }
 
     
 }
 
 @media (max-width: 900px){
-    .desktop{width: 522px;}
+    .desktop{width: 522px;transition: 3s;}
     .Block1 h1{
         font-size: 29px;
         line-height: 47px;
+        transition: 3s;
     }
     .row {
         margin-top: 30px;
-
+        transition: 3s;
         font-size: 14px;
         line-height: 208%;
         width: 522px;
@@ -1343,15 +1378,18 @@ line-height: 150%;
    .styleblock2{
    line-height: 150%;
         padding-left: 20px;
+        transition: 3s;
    }
    
    .Block2.desktop{
         width: 522px;
+        transition: 3s;
    }
 
    .Block2 h1{
     font-size: 29px;
     line-height: 47px;
+    transition: 3s;
     }
 
     .block2row {
@@ -1361,23 +1399,320 @@ line-height: 150%;
         min-width: 522px;
         width: 100%;
         justify-content: center;
+        transition: 3s;
     }
     .block2row br{
         display: none;
+        transition: 3s;
     }
     .block2row p{
         width: 250px;
+        transition: 3s;
     }
     .library p{
         padding-left: 20px;
         width:200px;
+        transition: 3s;
     }
     .gotocatalog {
         margin-left: 20px;
         width: 200px;
         height: 60px;
+        transition: 3s;
     }
     .cataloglink{
         font-size: 18px;
+        transition: 3s;
+    }
+
+    .Block3.desktop{
+        width: 522px;
+        transition: 3s;
+    }
+
+    .Block3 h1{
+        font-size: 29px;
+        line-height: 47px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 3s;
+        }
+
+    .block3row{
+    font-size: 14px;
+    min-width: 522px;
+    width:100%;
+    transition: 3s;
+    }
+    .top{
+        width: 155px;
+        transition: 3s;
+    }
+    .links{
+        font-size: 14px;
+        transition: 3s;
+    }
+
+    .desktop2{
+        width: 522px;
+        transition: 3s;
+    }
+    .logo{
+        width: 100px;
+        height: 90px;
+        transition: 3s;
+    }
+    .logonaming{
+        font-size: 11px;
+        line-height: 13px;
+        transition: 3s;
+    }
+
+    .navigation{
+        font-size: 12px;
+        padding-top: 65px;
+        transition: 3s;
+    }
+    .navigation h1{
+        font-size: 12px;
+        transition: 3s;
+    }
+    
+    .navi_links{
+        font-size: 12px;
+        transition: 3s;
+    }
+
+    .mainmenu {
+        width: 800px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: 3s;
+   }
+
+
+   .SearchOnSite{
+    
+    transition: 3s;
+    width: 522px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+    height: 50px;
+    
+    margin-left: 177px;
+    
+    }
+    .header{
+        justify-content: left;
+        
+    }
+    .header_logo{
+        margin-left: 0px;
+    }
+    .HeaderText2{
+        top: 350px;
+        left:160px;
+        font-size: 18px;
+        width: 522px;
+        transition: 3s;
+        height: 150px;
+    }
+    .intro{
+        display: flex;
+        align-content: center;
+        justify-content: start;
+        flex-direction:  column;
+    
+    }
+    a.cart{
+        margin-left: 0px;
+        transition: 3s;
+    }
+    .header_cart-pic{
+        width: 35px;
+        height: 35px;
+        transition: 3s;
+    }
+
+    .header_list{
+        margin-left:10px;
+        transition: 3s;
+        width: auto;
+    }
+
+    .header_item{
+        margin-right: 40px;
+        transition: 3s;
+        margin-left: 0px;
+
+    }
+    .header_item:first-child{
+        padding-left: 30px;
+    }
+    .down{
+        text-align: left;
+        width: auto;
+    }
+
+    .header_link{
+        font-size: 15px;
+        transition: 3s;
+    }
+
+     .header_item:last-child{
+          margin-right: 0px;
+          transition: 3s;
+     }
+     a.chat{ 
+        display: none;
+    }
+
+    .header_logo-pic{
+        width: 80px;
+        height: 73px;
+        transition: 3s;
+    }
+    .searchBar #site-search{
+        padding: 5.5px;
+        font-family: Montserrat,serif;
+        width: 475px;
+        height: 46.8px;
+        border-radius: 0px 20px 20px 0px;
+    }
+    .searchBar button {
+        border-radius: 20px 0px 0px 20px;
+        padding: 10px;
+        width: 50px;
+        height: 46.8px;
+        background: #FFFFFF;
+        font-size: 10px;
+        cursor: pointer;
+        opacity: 0.8;
+    }
+    .SearchText {
+        
+        font-size: 13px;
+        line-height: 29px;
+        color: #B1B1B1;
+        padding-left: 17px;
+        float: left;
+    }
+    .searchBar .search input{
+        width: 300px;
+    }
+    .container {
+        width: calc(100% - 60px) !important;
+    }
+    .searchBar {
+        margin: 0;
+    }
+   .search_loupe{
+        height: 26px;
+        width: 26px;
+   }
+   .Block4.navigation{
+       width: 522px;
+   }
+}
+
+@media (max-width: 800px){
+    .HeaderText2{
+        top: 350px;
+        left:100px;
+    }
+    .SearchOnSite{
+        margin-left: 116px;
+    }
+}
+
+
+@media (max-width: 660px){
+    .HeaderText2{
+        top: 350px;
+        left:50px;
+    }
+    .SearchOnSite{
+        margin-left: 66px;
+    }
+}
+
+@media (max-width: 604px){
+    .menu{
+        display: none;
+    }
+    .cart{
+        display: none;
+    }
+    .mainmenu{
+        display: flex;
+        justify-content: center;
+    }
+    .header_logo-pic{
+        width: 156px;
+        height: 143.5px;
+    }
+    .SearchOnSite{
+        margin-left: 0;
+    }
+    .intro{
+        align-items: center;
+    }
+    .searchBar #site-search{
+        padding: 5.5px;
+        font-family: Montserrat,serif;
+        width: 364px;
+        height: 46.8px;
+        border-radius: 0px 20px 20px 0px;
+    }
+    .searchBar button {
+        border-radius: 20px 0px 0px 20px;
+        padding: 5px;
+        width: 36px;
+        height: 46.8px;
+        background: #FFFFFF;
+        font-size: 10px;
+        cursor: pointer;
+        opacity: 0.8;
+    }
+    .SearchText {
+        
+        font-size: 13px;
+        line-height: 29px;
+        color: #B1B1B1;
+        padding-left: 17px;
+        float: left;
+    }
+    .searchBar .search input{
+        width: 300px;
+    }
+    .container {
+        width: calc(100% - 60px) !important;
+    }
+    .searchBar {
+        margin: 0;
+    }
+   .search_loupe{
+        height: 22px;
+        width: 22px;
+   }
+   .HeaderText2{
+       font-size: 14px;
+       width: 400px;
+       left: 88px;
+   }
+}
+
+@media (max-width:545px) {
+    
+}
+
+@media (max-width:502px) {
+    .HeaderText2{
+        left:38px;
     }
 }
