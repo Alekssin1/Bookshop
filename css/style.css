@@ -1333,7 +1333,7 @@ line-height: 150%;
     .row {
         margin-top: 30px;
 
-        font-size: 10.8px;
+        font-size: 14px;
         line-height: 208%;
         width: 522px;
     }
@@ -1344,4 +1344,40 @@ line-height: 150%;
    line-height: 150%;
         padding-left: 20px;
    }
+   
+   .Block2.desktop{
+        width: 522px;
+   }
+
+   .Block2 h1{
+    font-size: 29px;
+    line-height: 47px;
+    }
+
+    .block2row {
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: 208%;
+        min-width: 522px;
+        width: 100%;
+        justify-content: center;
+    }
+    .block2row br{
+        display: none;
+    }
+    .block2row p{
+        width: 250px;
+    }
+    .library p{
+        padding-left: 20px;
+        width:200px;
+    }
+    .gotocatalog {
+        margin-left: 20px;
+        width: 200px;
+        height: 60px;
+    }
+    .cataloglink{
+        font-size: 18px;
+    }
 }
