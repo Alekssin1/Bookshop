@@ -160,9 +160,9 @@
      height: 54px;
   }
 
-  .chat{
+  a.chat{
      
-     margin-right: 245px;
+     margin-right: 82px;
      margin-top: 625px;
      transition: opacity .2s linear;
  }
@@ -608,7 +608,7 @@ line-height: 150%;
 
 .top_menu{
     display: flex;
-    margin-left:20px;
+    margin-left: 90px;
     align-items: center;
 }
 .top_menu2{
@@ -1215,7 +1215,7 @@ line-height: 150%;
     opacity: 75%;
 }
 
-@media (max-width:1600px){
+@media (max-width:1380px){
     a.chat{
         transition: 4s;
         margin-right: 0px;
@@ -3095,9 +3095,9 @@ img[alt="heart"] {
     }
 
 
-    @media (max-width: 1570px){
+    @media (max-width: 1450px){
         .top_menu, .top_menu2{
-            padding-left: 0px;
+            margin-left: 0px;
             transition: 4s;
         }
     }
