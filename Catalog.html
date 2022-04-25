@@ -12,8 +12,9 @@
     <body>
         
         <header class="header2">
-            <div class="top_menu">
+            <div class="top_menu2">
                 <img src="./img/svg/Logo_menu.svg" alt="menu" class="menu_logo-pic">
+                <img src="./img/svg/mobile_logo.svg" alt="menu" class="menu_logo-pic_mobile">
                 <div class="SearchMenu">
                     <form>
                         <div class="searchBarmenu">
@@ -38,11 +39,196 @@
         <header class="header2_mobile">
             <div class="top_menu_mobile">
                 <a href="#" onclick="history.back();"><img src="./img/svg/arrow left.svg"></a>
-                <img src="./img/svg/menu.svg" class="list_menu_mobile">
+
+                <input type="checkbox" class="checkbox1" id="checkbox1" name="checkbox1" value="yes">                
+                <label for="checkbox1" class="checkbox_label">
+                    <img src="./img/svg/menu.svg" class="list_menu_mobile">
+                </label>
+                <div class="button_menu">
+                    <a href="#!">Моя сторінка</a>
+                    <a href="#!">Список бажаного</a>
+                    <a href="#!">Корзина</a>                
+                </div>
             </div>
         </header>
 
         <main>
+
+            <div class="filter">
+                <div class="first_button">
+                    <div class="cont">
+                        <input type="checkbox" class="checkbox2" id="checkbox2" name="checkbox2" value="yes">                
+                        <label for="checkbox2" class="checkbox_label2">
+                            <img src="/img/first.png" alt="f">
+                            <p>Фільтр</p>
+                        </label>
+                        <div class="button_menu2">
+                            <div class="catalog_page2">
+                                <h2 class="title_name">Книжки</h2>
+                                <div class="PublishHouse GroupName">
+                                    <div class="publish_house_menu">
+                                        Видавництво <div class="number_of_publish_house">843</div>
+                                    </div>
+                                    <div class="Options">
+                                        <div class="Option">
+                                            <input type="checkbox" id="option1" class="checkbox" name="scales"><label for="option1">1DEA.me</label>
+                                        </div>
+                                        <div class="Option">
+                                            <input type="checkbox" id="option2" class="checkbox" name="scales"><label for="option2">Book Chef</label>
+                                        </div>
+                                        <div class="Option">
+                                            <input type="checkbox" id="option3" class="checkbox" name="scales"><label for="option3">Cambridge University Press</label>
+                                        </div>
+                                        <div class="Option">
+                                            <input type="checkbox" id="option4" class="checkbox" name="scales"><label for="option4">International</label>
+                                        </div>
+                                        <div class="Option">
+                                            <input type="checkbox" id="option5" class="checkbox" name="scales"><label for="option5">Vivat</label>
+                                        </div>
+                                        <div class="Option">
+                                            <input type="checkbox" id="option6" class="checkbox" name="scales"><label for="option6">А-ба-ба-га-ла-ма-га</label>
+                                        </div>
+                                        <div class="Option">
+                                            <input type="checkbox" id="option7" class="checkbox" name="scales"><label for="option7">Видавництво Старого Лева</label>
+                                        </div>
+                                        <div class="Option">
+                                            <input type="checkbox" id="option8" class="checkbox" name="scales"><label for="option8">Клуб Сімейного Дозвілля</label>
+                                        </div>
+                                        <div class="Option">
+                                            <input type="checkbox" id="option9" class="checkbox" name="scales"><label for="option9">Наш Формат</label>
+                                        </div>
+                                        <div class="Option">
+                                            <input type="checkbox" id="option10" class="checkbox" name="scales"><label for="option10">Ранок</label>
+                                        </div>
+                                        <div class="Option">
+                                            <input type="checkbox" id="option11" class="checkbox" name="scales"><label for="option11">Фолио</label>
+                                        </div>
+                                        <div class="Option">
+                                            <input type="checkbox" id="option12" class="checkbox" name="scales"><label for="option12">National Geographic</label>
+                                        </div>
+                                        <div class="Option">
+                                            <input type="checkbox" id="option13" class="checkbox" name="scales"><label for="option13">Orion</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="Price GroupName">
+                                    <div class="publish_house_menu">
+                                        Ціна
+                                    </div>
+                                    <div class="PriceControl">
+                                        <form>
+                                            <div class="PriceControl">
+                                                <div class="Enter">
+                                                    <input aria-label="price-from" class="input-text from" id="price_input_from"
+                                                           type="text" pattern="[0-9]*\.?[0-9]*" placeholder="Від">
+                                                </div>
+                                                <div>
+                                                    <span class="control-label">-</span>
+                                                </div>
+            
+                                                <div class="Enter">
+                                                    <input aria-label="price-to" class="input-text to" id="price_input_to"
+                                                           type="text"
+                                                           pattern="[0-9]*\.?[0-9]*" placeholder="До">
+                                                </div>
+            
+                                                <div class="commit-button">
+                                                    <a href="#" class="button-link">
+                                                        <img src="./img/svg/Button.svg" alt="comit-button" class="button">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>   
+                                </div>
+                                <div class="Language GroupName">
+                                    <div class="publish_house_menu">
+                                        Мова  <div class="number_of_publish_house">11</div>
+                                    </div>
+                                    <div class="Options">
+                                        <div class="Option">
+                                            <input type="checkbox" id="lang-option1" class="checkbox" name="scales"><label for="lang-option1">Українська</label>
+                                        </div>
+                                        <div class="Option">
+                                            <input type="checkbox" id="lang-option2" class="checkbox" name="scales"><label for="lang-option2">Англійська</label>
+                                        </div>
+                                        <div class="Option">
+                                            <input type="checkbox" id="lang-option3" class="checkbox" name="scales"><label for="lang-option3">Німецька</label>
+                                        </div>
+                                        <div class="Option">
+                                            <input type="checkbox" id="lang-option4" class="checkbox" name="scales"><label for="lang-option4">Російська</label>
+                                        </div>
+                                        <div class="Option">
+                                            <input type="checkbox" id="lang-option5" class="checkbox" name="scales"><label for="lang-option5">Французька</label>
+                                        </div>
+                                        <div class="Option">
+                                            <input type="checkbox" id="lang-option6" class="checkbox" name="scales"><label for="lang-option6">Італійська</label>
+                                        </div>
+                                        <div class="Option">
+                                            <input type="checkbox" id="lang-option7" class="checkbox" name="scales"><label for="lang-option7">Іспанська</label>
+                                        </div>
+                                        <div class="Option">
+                                           <input type="checkbox" id="lang-option8" class="checkbox" name="scales"><label for="lang-option8">Португальська</label>
+                                        </div>
+                                        <div class="Option">
+                                            <input type="checkbox" id="lang-option9" class="checkbox" name="scales"><label for="lang-option9">Португальська</label>
+                                        </div>
+                                        <div class="Option">
+                                            <input type="checkbox" id="lang-option10" class="checkbox" name="scales"><label for="lang-option10">Португальська</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="Author GroupName">
+                                    <div class="publish_house_menu">
+                                        Розділи  <div class="number_of_publish_house">10</div>
+                                    </div>
+                                    <div class="Options">
+                                        <div class="Option">
+                                            <input type="checkbox" id="author-option1" class="checkbox" name="scales"><label for="author-option1">Художня література</label>
+                                        </div>
+                                        <div class="Option">
+                                            <input type="checkbox" id="author-option2" class="checkbox" name="scales"><label for="author-option2">Словники та енциклопедії</label>
+                                        </div>
+                                        <div class="Option">
+                                            <input type="checkbox" id="author-option3" class="checkbox" name="scales"><label for="author-option3">Підручники</label>
+                                        </div>
+                                        <div class="Option">
+                                            <input type="checkbox" id="author-option4" class="checkbox" name="scales"><label for="author-option4">Наукова і технічна література</label>
+                                        </div>
+                                        <div class="Option">
+                                            <input type="checkbox" id="author-option5" class="checkbox" name="scales"><label for="author-option5">Дім та хобі</label>
+                                        </div>
+                                        <div class="Option">
+                                            <input type="checkbox" id="author-option6" class="checkbox" name="scales"><label for="author-option6">Подрожі та спорт</label>
+                                        </div>
+                                        <div class="Option">
+                                            <input type="checkbox" id="author-option7" class="checkbox" name="scales"><label for="author-option7">Бізнес література</label>
+                                        </div>
+                                        <div class="Option">
+                                           <input type="checkbox" id="author-option8" class="checkbox" name="scales"> <label for="author-option8">Релігія та езотерика</label>
+                                        </div>
+                                        <div class="Option">
+                                            <input type="checkbox" id="author-option9" class="checkbox" name="scales"><label for="author-option9">Книги для батьків</label>
+                                        </div>
+                                        <div class="Option">
+                                            <input type="checkbox" id="author-option10" class="checkbox" name="scales"><label for="author-option10">Комікси</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>             
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="second_button">
+                    <div class="cont">
+                       <img src="/img/second.png" alt="s">
+                       <p>Сортування</p>
+                    </div>
+                </div>
+            </div>
+                
 
             <section class="Catalog">
                 <div class="desktop4">
