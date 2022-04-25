@@ -616,6 +616,9 @@ line-height: 150%;
     height: 36px;
     width: 212px;
 }
+.menu_logo-pic_mobile{
+    display: none;
+}
 
 .SearchMenu{
     padding-left: 289.3px;
@@ -1067,7 +1070,7 @@ line-height: 150%;
     margin: 0 auto;  
     display: flex;
     flex-direction: row;
-    padding-top: 63px;
+    padding-top: 72px;
 }
 .desktop4 h1{
     margin-left:97px;
@@ -1739,7 +1742,7 @@ line-height: 150%;
     display: none;
 }
 
-@media (max-width:540px) {
+@media (max-width:541px) {
     .Block1{
         display: none;
     }
@@ -2959,7 +2962,7 @@ line-height: 150%;
 
 
 
-@media (max-width: 540px) {
+@media (max-width: 541px) {
     .header2{
         display: none;
     }
@@ -3086,3 +3089,71 @@ img[alt="heart"] {
         }
     }
 
+
+    @media (max-width: 1400px){
+        .top_menu{
+            padding-left: 0px;
+            transition: 4s;
+        }
+    }
+
+    @media (max-width: 1305px){
+        .SearchMenu{
+            padding-left: 189.300px;
+            transition: 4s;
+        }
+    }
+
+    @media (max-width: 1205px){
+        .SearchMenu{
+            padding-left: 89.300px;
+            transition: 4s;
+        }
+    }
+
+    @media (max-width: 1105px){
+        .SearchMenu{
+            padding-left: 49.300px;
+            transition: 4s;
+        }
+        .menu_links{
+            transition: 4s;
+            padding-left: 40px;
+        }
+    }
+
+    @media (max-width: 965px){
+        .menu_logo-pic{
+            transition: 4s;
+            display: none;
+        }
+        .menu_logo-pic_mobile{
+            transition: 4s;
+            display: flex;
+            width: 70px;
+        }
+    }
+    
+    @media (max-width: 825px) {
+        .SearchMenu{
+            display: none;
+            transition: 4s;
+        }
+        .menu_links{
+            padding-left: 400px;
+            transition: 4s;
+        }
+    }
+
+    @media (max-width: 700px) {
+        .menu_links{
+            padding-left: 300px;
+            transition: 4s;
+        }
+    }
+    @media (max-width: 600px) {
+        .menu_links{
+            padding-left: 200px;
+            transition: 4s;
+        }
+    }
