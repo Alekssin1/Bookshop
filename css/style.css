@@ -608,12 +608,12 @@ line-height: 150%;
 
 .top_menu{
     display: flex;
-    padding-left: 170px;
+    margin-left:20px;
     align-items: center;
 }
 .top_menu2{
     display: flex;
-    padding-left: 90px;
+    margin-left: 25px;
     align-items: center;
 }
 
